@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+body
+{
+
+	background-size: cover;
+	background: transparent url('../img/img1.jpg') no-repeat;
+	content: "";
+	font-family: sans-serif;
+    position: fixed;
+    height: 100%; width: 100%;
+    margin: 0px;
+}
+
+header
+{
+	display: block;
+	float: left;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	background: rgba(0,0,0,.8);
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	height: 20vh;
+}
+
+.Title
+{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+.Boutons
+{	
+	float: center;
+	width: auto;
+	padding-bottom-bottom: 30px;
+	height: auto;
+	display: block;
+}
+
+button
+{ 
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	float: center;
+	width: 10%;
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 50px;
+	border-radius: 25px;
+	font-size: 20px;
+	text-decoration: underline;
+	background: rgba(0,0,0,0);
+	border: 1px solid white;
+}
+
+button:hover
+{
+	color: black;
+	background-color: #f1f1f1;
+	border: 2px solid black;
+}
+
+content
+{
+	color: white;
+	display: block;
+	float: center;
+	clear: both;
+	width: 75%;
+	height: 73vh;
+	margin: auto;
+	font-family: 'Oswald', sans-serif;
+	background: rgba(39,40,34,9);
+}
+
+h2
+{
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 7%;
+	border-bottom: 1px solid white;
+	padding-top: 6px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+#resultat
+{
+	text-align: left;
+	width: 100%;
+	height: 93%;
+	float: left;
+	overflow: scroll;
+	padding-left: 40px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
