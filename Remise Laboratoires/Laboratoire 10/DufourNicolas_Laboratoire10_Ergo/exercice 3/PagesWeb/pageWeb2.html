@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lab Responsive Et Ergonomie</title>
+
+	    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+	    
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css"  media="screen,projection" />
+
+    </head>
+	
+	<body>
+
+	    <header>
+	    	<div class="logo">
+				         <img src="../img/logo1.png" id="logim"/>
+				   </div>
+	    	<div class="Title">
+			<h1>Lab Responsive Et Ergonomie</h1>
+		    </div>
+	    </header> 
+
+        <section>
+        	<nav>
+        		<li><a href ="../index.html">Acceuil</a></li>
+		        <li><a href ="pageWeb1.html" id="button">Page Web 1</a></li>
+		        <li class="active"><a href ="pageWeb2.html" id="button">Page Web 2</a></li>
+		        <li><a href ="pageWeb3.html" id="button">Page Web 3</a></li>        
+		    </nav>
+
+		    <div class="contenue">
+	            <h2 id="sujet">Élément colapse</h2>
+	            <div id="result">
+
+	            	<div class="container" id="cont3" >
+
+	            		<div class="panel-group" id="accordion";">
+
+	            		    <div class="panel panel-default">
+	            		        <div class="panel-heading">
+	            		            <h4 class="panel-title">
+	            		                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Informations Du Joueur</a>
+	            		            </h4>
+	            		        </div>
+	            		        <div id="collapse1" class="panel-collapse collapse in">
+	            		            <div class="panel-body">- Nom: Nicolas Dufour <br/>- UserName:TimberedShelf26 <br/>- Âge: 20 ans <br/>- Meilleur Score: 300</div>
+	            		        </div>
+	            		    </div>
+
+	            		    <div class="panel panel-default">
+	            		        <div class="panel-heading">
+	            		            <h4 class="panel-title">
+	            		                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Informations Du Personage</a>		  
+	            		            </h4>
+	            		        </div>
+	            		        <div id="collapse2" class="panel-collapse collapse">
+	            		            <div class="panel-body">De la classe des arcaniste, ce personnage possèdent plusieurs atout comme des attaques de supers lui permmettant d'anéantir ces ennemies. Il parle plusieurs langues dont le français, l'anglais et la langue des enciens une langue très peu commune.</div>
+	            		        </div>
+	            		    </div>
+
+	            			<div class="panel panel-default">
+	            		        <div class="panel-heading">
+	            		            <h4 class="panel-title">
+	            		                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"> Armes Et Armures</a>
+	            		            </h4>
+	            		        </div>
+	            		        <div id="collapse4" class="panel-collapse collapse">
+	            		            <div class="panel-body">Celui-ci est équipé de 3 armes simultanément. Une arme basique. Ensuite une arme cinétique qui sera insufflé d'un élément et causera donc des dégâts liés à ce dernier et enfin une arme dite «puissante» elle aussi causant des dégâts élémentaires.<br/>Son armure très résistante consiste en le port d'un casce, un armure de torse, des gantelets, des bottes, et un accessoire qui augmente la défense. Tou cette équipement le rend beaucoup moins vulnérable.</div>
+	            		        </div>
+	            		    </div>
+
+	            		    <div class="panel panel-default">
+	            		        <div class="panel-heading">
+	            		            <h4 class="panel-title">
+	            		                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Ses Compétences</a>
+	            		            </h4>
+	            		        </div>
+	            		        <div id="collapse3" class="panel-collapse collapse">
+	            		            <div class="panel-body">Il est possible de choisir les compétences des trois doctrines proposé, soit: Nightstalker, Sunbreaker, Stormcaller. Qui disposent chacune d'elles, d'un arbre de compétences. Il peut ainsi choisir parmis différentes compétences les plus puissante les une des autres.</div>
+	            		        </div>
+	            		    </div>
+	            		  </div> 
+	                </div>
+	        	</div>
+	        </div>
+        </section>
+
+	    <footer>
+	    	<p>Nicolas Dufour tous droits réservés !</p>
+	    </footer>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

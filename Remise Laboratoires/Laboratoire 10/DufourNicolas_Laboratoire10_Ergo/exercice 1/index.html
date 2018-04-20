@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Supers Héros</title>
+
+
+	    
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script> 
+	    	if ((window.screen.width> 1000) && (window.screen.height > 768)) 
+	    	{
+                var lien_css = document.createElement('link');
+                lien_css.href = "css/style.css";
+                lien_css.rel = "stylesheet";
+                lien_css.type = "text/css";
+                document.getElementsByTagName("head")[0].appendChild(lien_css);
+            }
+            else
+            {
+                var lien_css = document.createElement('link');
+                lien_css.href = "css/styleCell.css";
+                lien_css.rel = "stylesheet";
+                lien_css.type = "text/css";
+                document.getElementsByTagName("head")[0].appendChild(lien_css);
+            }
+	    </script>
+
+    </head>
+	
+	<body>
+
+	    <header>
+	    	<div class="logo">
+				         <img src="img/logo1.png" id="logim"/>
+				   </div>
+	    	<div class="Title">
+			<h1>Mes Supers Héros</h1>
+		    </div>
+	    </header> 
+
+        <section>
+        	<nav>
+        		<div class="Boutons" id="sec_left">
+			    	<button id="GreenArrow"><img src="img/nav_arrow.jpg"></button>
+			    	<p>Arrow</p>
+				</div>
+				<div class="Boutons" id="sec_right">
+			    	<button id="Flash"><img src="img/nav_flash.jpg"></button>
+			    	<p>Flash</p>
+				</div>
+				<div class="Boutons" id="sec_left">
+			    	<button id="Thor"><img src="img/nav_thor.jpg"></button>
+			    	<p>Thor</p>
+				</div>
+				<div class="Boutons" id="sec_right">
+			    	<button id="SuperMan"><img src="img/nav_superman.jpg"></button>
+			    	<p>Super Man</p>
+				</div>
+				<div class="Boutons" id="sec_left">
+			    	<button id="IronMan"><img src="img/nav_ironman.jpg"></button>
+			    	<p>Iron Man</p>
+		    	</div>	        
+		    </nav>
+
+		    <div class="contenue">
+	            <h2 id="nom_SuperHero">Green Arrow</h2>
+	            <div id="result">
+	        	    <div id = "Description">
+	        	    	<p id = "texte">Green Arrow est un justicier opérant à Star City, il a la particularité de ne posséder aucun super-pouvoir, il utilise ses compétences au tir à l'arc, les arts martiaux et la technologie pour combattre le crime. Son identité secrète est Oliver Queen, un playboy milliardaire et riche industriel, possédant Queen Industries. Green Arrow est également le leader de la Team Arrow et membre de la Ligue des Justiciers ainsi que des Outsiders.
+	        	    	</p>
+	        	    	<div id = "Image"></div>
+	        	    </div>
+	        	    <div id="Allies_Ennemie">
+	        	        <div id="Allies">
+	        	            <h2>Les alliés</h2>
+	        	    	    <ul>
+	        	    		    <li>Black Canary</li>
+	        	    		    <li>OverWatch</li>
+	        	    		    <li>Spartan</li>
+	        	    		    <li>Mr Terrific</li>
+	        	    		    <li>Wild Dog</li>
+	        	    		    <li>Speedy</li>
+	        	    		    <li>Arsenal</li>
+	        	    	    </ul>
+	        	        </div>
+	        	        <div id="Ennemies">
+	        	    	    <h2>Les ennemies</h2>
+	        	    	    <ul>
+	        	    		    <li>Damien Dark</li>
+	        	    		    <li>Ra's al Ghul </li>
+	        	    		    <li>H.I.V.E.</li>
+	        	    		    <li>Prometheus</li>
+	        	    		    <li>Captain Boomrang</li>  
+	        	    	    </ul>
+	        	        </div>
+	        	    </div>
+	        	</div>
+	        </div>
+        </section>
+
+	    <footer>
+	    	<p>Nicolas Dufour tous droits réservés !</p>
+	    </footer>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
