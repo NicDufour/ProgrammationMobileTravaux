@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+body 
+{
+	font-family: sans-serif;
+	width: auto;
+	height: auto;
+	margin: 0px;
+     box-sizing: border-box;
+
+}
+
+body:before
+{
+	 background-size: cover;
+	 background: transparent url('../Pictures/background.jpg') no-repeat;
+	 content: "";
+     position: fixed;
+     height: 100%; width: 100%;
+     z-index: -1; 
+     -webkit-filter: blur(2px);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+.sec_centre
+{
+
+     box-sizing: border-box;
+     float: center;
+     margin: auto;
+     width: 75%;
+     background: rgba(37, 37, 38,0.9);
+}
+
+.sec_Form
+{
+     box-sizing: border-box;
+     float: center;
+     margin: auto;
+     width: 100%;
+}
+#form
+{
+     box-sizing: border-box;
+     float: center;
+     margin: auto;
+     width: 100%;
+     display: block;
+}
+.row
+{
+     box-sizing: border-box;
+     float: left;
+     margin: auto;
+     width: 100%;
+}
+
+fieldset
+{
+     box-sizing: border-box;
+     float: center;
+     margin: auto;
+     width: 100%;
+}
+
+.header
+{
+     box-sizing: border-box;
+     float: center;
+     margin: auto;
+     width: 100%;
+     background-color: rgb(39, 40, 34);
+     height: 15%;
+
+}
+
+     
+
+.logo
+{
+     float: left;
+     box-sizing: border-box;
+     width: 20%;
+     height: 100%;
+
+}
+
+.logo img 
+{ 
+     max-width:100%;
+     max-height:100%;
+}
+#navbarNavAltMarkup
+{
+     float: center;
+     width: 100%;
+     margin: auto; 
+}
+
+.Title
+{
+     float: left;
+     box-sizing: border-box;
+     width: 80%;
+     text-align: center;
+     padding-top: 2%;
+     color: white;
+     height: 100%;
+
+}
+#navbarNavAltMarkup
+{
+     box-sizing: border-box;
+     float: center;
+     margin: auto;
+     width: 60%;
+     display: block;
+}
+#navContent
+{
+     box-sizing: border-box;
+     float: center;
+     margin: auto;
+     width: 60%;
+}
+
+.navbar
+{
+     float: left;
+     box-sizing: border-box;
+     width: 100%;
+     text-align: center;
+     background-color: rgb(39, 40, 34);   
+}
+.nav-item
+{
+     color: white;
+}
+
+.col-6
+{
+     color: white;
+}
